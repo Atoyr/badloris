@@ -125,6 +125,14 @@ call s:HL('Comment', 'mediumgravel')
 call s:HL('Constant','dalespale')
 call s:HL('Character','dalespale')
 
+call s:HL('Statement','taffy')
+
+call s:HL('Identifier','coffee')
+
+call s:HL('PreProc','lime')
+
+call s:HL('Todo','coal','dalespale','bold')
+
 " }}} 
 " }}}
 

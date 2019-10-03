@@ -131,6 +131,16 @@ call s:HL('Statement','taffy')
 
 call s:HL('PreProc','lime')
 
+call s:HL('Type','lime')
+
+call s:HL('Special','lime')
+
+call s:HL('Underlined','lime')
+
+call s:HL('Ignore','lime')
+
+call s:HL('Error','lime')
+
 call s:HL('Todo','coal','dalespale','bold')
 
 " }}} 

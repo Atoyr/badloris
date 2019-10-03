@@ -1,15 +1,13 @@
 
 " Supporting code -------------------------------------------------------------
 " Preamble {{{
-set background=dark 
-hi clear
 
 if exists("syntax_on") 
-    syntax reset 
-  endif
+  syntax reset 
+endif
 
-  set t_Co=256 
-  let g:colors_name = "badloris"
+set t_Co=256 
+let g:colors_name = "badloris"
 " }}}
 "
 " Palette {{{
@@ -115,34 +113,43 @@ endfunction
 " }}}
 "
 " Actual colorscheme ----------------------------------------------------------
-" Vanilla Vim {{{
 " General/UI {{{
-call s:HL('Normal', 'snow', 'coal')     
-call s:HL('Folded', 'mediumgravel', 'bg', 'none') 
-call s:HL('VertSplit', 'lightgravel', 'bg', 'none')
+if &background ==# 'dark'
+  call s:HL('Normal', 'snow', 'coal')     
+  call s:HL('Folded', 'mediumgravel', 'bg', 'none') 
+  call s:HL('VertSplit', 'lightgravel', 'bg', 'none')
+else 
+  call s:HL('Normal', 'coal', 'snow')
 
-call s:HL('Comment', 'mediumgravel')
-call s:HL('Constant','dalespale')
-call s:HL('Character','dalespale')
-
-call s:HL('Identifier','coffee')
-
-call s:HL('Statement','taffy') 
-
-call s:HL('PreProc','lime')
-
-call s:HL('Type','lime')
-
-call s:HL('Special','lime')
-
-call s:HL('Underlined','lime')
-
-call s:HL('Ignore','lime')
-
-call s:HL('Error','lime')
-
-call s:HL('Todo','coal','dalespale','bold')
-
+endif
 " }}} 
-" }}}
+
+" Syntax highlighting {{{
+if &background ==# 'dark'
+  call s:HL('Comment', 'mediumgravel')
+  call s:HL('Constant','dalespale')
+  call s:HL('Character','dalespale')
+
+  call s:HL('Identifier','coffee')
+
+  call s:HL('Statement','taffy') 
+
+  call s:HL('PreProc','lime')
+
+  call s:HL('Type','lime')
+
+  call s:HL('Special','lime')
+
+  call s:HL('Underlined','lime')
+
+  call s:HL('Ignore','lime')
+
+  call s:HL('Error','lime')
+
+  call s:HL('Todo','coal','dalespale','bold')
+else 
+
+endif
+" }}} 
+
 

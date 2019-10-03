@@ -16,8 +16,15 @@ let s:blc = {}
 
 " The most basic of all our colors is a slightly tweaked version of the Molokai
 " Normal text.
-let s:blc.glass = ['000000', 0]
-let s:blc.plain = ['f8f6f2', 15]
+let s:blc.glass      = ['000000', 0]
+let s:blc.red        = ['ff0000', 1]
+let s:blc.green      = ['ff0000', 2]
+let s:blc.yellow     = ['ff0002', 3]
+let s:blc.blue       = ['ff0002', 4]
+let s:blc.purple     = ['ff0002', 5]
+let s:blc.lightblue  = ['ff0002', 6]
+let s:blc.offwhite   = ['ff0002', 6]
+let s:blc.plain      = ['f8f6f2', 15]
 
 " Pure and simple.
 let s:blc.snow = ['e4e4e4', 254]

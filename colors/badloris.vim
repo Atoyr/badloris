@@ -41,43 +41,23 @@ let s:blc.darkgravel     = ['242321', 235]
 let s:blc.blackgravel    = ['1c1b1a', 233]
 let s:blc.blackestgravel = ['141413', 232]
 
-" A color sampled from a highlight in a photo of a glass of Dale's Pale Ale on
-" my desk.
-let s:blc.dalespale = ['fade3e', 221]
-
-" A beautiful tan from Tomorrow Night.
-let s:blc.dirtyblonde = ['f4cf86', 222]
-
-" Delicious, chewy red from Made of Code for the poppiest highlights.
-let s:blc.taffy = ['ff2c4b', 196]
-
-" Another chewy accent, but use sparingly!
+let s:blc.dalespale      = ['fade3e', 221]
+let s:blc.dirtyblonde    = ['f4cf86', 222]
+let s:blc.taffy          = ['ff2c4b', 196]
 let s:blc.saltwatertaffy = ['8cffba', 121]
+let s:blc.tardis         = ['0a9dff', 39]
+let s:blc.orange         = ['ffa724', 214]
+let s:blc.lime           = ['aeee00', 154]
+let s:blc.dress          = ['ff9eb8', 211]
+let s:blc.toffee         = ['b88853', 137]
+let s:blc.coffee         = ['c7915b', 173]
+let s:blc.darkroast      = ['88633f', 95]
 
-" The star of the show comes straight from Made of Code.
-"
-" You should almost never use this.  It should be used for things that denote
-" 'where the user is', which basically consists of:
-"
-" * The cursor
-" * A REPL prompt
-let s:blc.tardis = ['0a9dff', 39]
 
-" This one's from Mustang, not Florida!
-let s:blc.orange = ['ffa724', 214]
-
-" A limier green from Getafe.
-let s:blc.lime = ['aeee00', 154]
-
-" Rose's dress in The Idiot's Lantern.
-let s:blc.dress = ['ff9eb8', 211]
-
-" Another play on the brown from Clouds Midnight.  I love that color.
-let s:blc.toffee = ['b88853', 137]
-
-" Also based on that Clouds Midnight brown.
-let s:blc.coffee    = ['c7915b', 173]
-let s:blc.darkroast = ['88633f', 95]
+let s:blc.purewhite      = ['ffffff', 232]
+let s:blc.pureblack      = ['000000',  16]
+let s:blc.brightred      = ['ff0000', 196]
+let s:blc.ultrablue      = ['0000af',  19]
 
 
 " }}}
@@ -143,7 +123,7 @@ if &background ==# 'dark'
 
   call s:HL('PreProc','lime')
 
-  call s:HL('Type','lime')
+  call s:HL('Type','brightred')
 
   call s:HL('Special','lime')
 

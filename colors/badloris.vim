@@ -15,28 +15,24 @@ let s:blc = {}
 
 
 " The most basic of all our colors is a slightly tweaked version of the Molokai
-" Normal text.
+" System color.
 let s:blc.systemblack   = ['000000', 0]
 let s:blc.systemred     = ['ff0000', 1]
-let s:blc.systemgreen   = ['ff0000', 2]
-let s:blc.systemblue    = ['ff0002', 4]
-let s:blc.systemmagenta = ['ff0002', 5]
-let s:blc.systemcyan    = ['ff0002', 6]
-let s:blc.systemyellow  = ['ff0002', 3]
+let s:blc.systemgreen   = ['00ff00', 2]
+let s:blc.systemblue    = ['0000ff', 4]
+let s:blc.systemmagenta = ['ffff00', 5]
+let s:blc.systemcyan    = ['ff00ff', 6]
+let s:blc.systemyellow  = ['00ffff', 3]
 let s:blc.systemwhite   = ['ffffff', 7]
 
 let s:blc.systemlightblack   = ['000000', 8]
-let s:blc.systemlightred     = ['ff0000', 9]
-let s:blc.systemlightgreen   = ['ff0000', 10]
-let s:blc.systemlightblue    = ['ff0002', 12]
-let s:blc.systemlightmagenta = ['ff0002', 13]
-let s:blc.systemlightcyan    = ['ff0002', 14]
-let s:blc.systemlightyellow  = ['ff0002', 11]
-let s:blc.systemoffwhite     = ['ffffff', 15]
-
-let s:blc.lightblue  = ['ff0002', 6]
-let s:blc.offwhite   = ['ff0002', 6]
-let s:blc.plain      = ['f8f6f2', 15]
+let s:blc.systemlightred     = ['da0000', 9]
+let s:blc.systemlightgreen   = ['00da00', 10]
+let s:blc.systemlightblue    = ['0000da', 12]
+let s:blc.systemlightmagenta = ['dada00', 13]
+let s:blc.systemlightcyan    = ['da00da', 14]
+let s:blc.systemlightyellow  = ['00dada', 11]
+let s:blc.systemodawhite     = ['dadada', 15]
 
 " Pure and simple.
 let s:blc.snow = ['e4e4e4', 254]
@@ -65,10 +61,10 @@ let s:blc.toffee         = ['b88853', 137]
 let s:blc.coffee         = ['c7915b', 173]
 let s:blc.darkroast      = ['88633f', 95]
 
+" pure color
 let s:blc.purewhite      = ['ffffff', 232]
 let s:blc.pureblack      = ['000000',  16]
 
-" pure color
 let s:blc.red            = ['ff0000', 196]
 let s:blc.green          = ['00ff00',  46]
 let s:blc.blue           = ['0000ff',  21]

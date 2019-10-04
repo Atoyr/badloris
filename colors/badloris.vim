@@ -16,12 +16,24 @@ let s:blc = {}
 
 " The most basic of all our colors is a slightly tweaked version of the Molokai
 " Normal text.
-let s:blc.glass      = ['000000', 0]
-let s:blc.red        = ['ff0000', 1]
-let s:blc.green      = ['ff0000', 2]
-let s:blc.yellow     = ['ff0002', 3]
-let s:blc.blue       = ['ff0002', 4]
-let s:blc.purple     = ['ff0002', 5]
+let s:blc.systemblack   = ['000000', 0]
+let s:blc.systemred     = ['ff0000', 1]
+let s:blc.systemgreen   = ['ff0000', 2]
+let s:blc.systemblue    = ['ff0002', 4]
+let s:blc.systemmagenta = ['ff0002', 5]
+let s:blc.systemcyan    = ['ff0002', 6]
+let s:blc.systemyellow  = ['ff0002', 3]
+let s:blc.systemwhite   = ['ffffff', 7]
+
+let s:blc.systemlightblack   = ['000000', 8]
+let s:blc.systemlightred     = ['ff0000', 9]
+let s:blc.systemlightgreen   = ['ff0000', 10]
+let s:blc.systemlightblue    = ['ff0002', 12]
+let s:blc.systemlightmagenta = ['ff0002', 13]
+let s:blc.systemlightcyan    = ['ff0002', 14]
+let s:blc.systemlightyellow  = ['ff0002', 11]
+let s:blc.systemoffwhite     = ['ffffff', 15]
+
 let s:blc.lightblue  = ['ff0002', 6]
 let s:blc.offwhite   = ['ff0002', 6]
 let s:blc.plain      = ['f8f6f2', 15]
@@ -53,12 +65,26 @@ let s:blc.toffee         = ['b88853', 137]
 let s:blc.coffee         = ['c7915b', 173]
 let s:blc.darkroast      = ['88633f', 95]
 
-
 let s:blc.purewhite      = ['ffffff', 232]
 let s:blc.pureblack      = ['000000',  16]
-let s:blc.brightred      = ['ff0000', 196]
-let s:blc.ultrablue      = ['0000af',  19]
 
+" pure color
+let s:blc.red            = ['ff0000', 196]
+let s:blc.green          = ['00ff00',  46]
+let s:blc.blue           = ['0000ff',  21]
+
+let s:blc.magenta        = ['ff00ff', 201]
+let s:blc.cyan           = ['00ffff',  51]
+let s:blc.yellow         = ['ffff00', 226]
+
+let s:blc.ultrablue      = ['0000af',  19]
+let s:blc.viridiangreen  = ['00af00',  34]
+let s:blc.naturalbrown   = ['870000',  88]
+let s:blc.pureorange     = ['ff5f00', 202]
+let s:blc.brilliantpink  = ['ff5faf', 205]
+
+let s:blc.capper         = ['af875f', 137]
+let s:blc.cobaltblue     = ['af875f', 137]
 
 " }}}
 "

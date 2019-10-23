@@ -104,7 +104,7 @@ let s:blc.deeppurple          = ['5f00af',  55]
 let s:blc.deepmagenta         = ['af00af', 127]
 let s:blc.deeppink            = ['af005f', 125]
 " }}}
-
+"
 " dark color {{{
 let s:blc.darkred             = ['870000',  88]
 let s:blc.darkorange          = ['875f00',  94]
@@ -118,6 +118,15 @@ let s:blc.darkblue            = ['000087',  21]
 let s:blc.darkpurple          = ['5f0087',  54]
 let s:blc.darkmagenta         = ['870087',  90]
 let s:blc.darkpink            = ['87005f',  89]
+" }}}
+
+" deep dark color {{{
+let s:blc.deepdarkred             = ['5f0000',  52]
+let s:blc.deepdarkyellow          = ['5f5f00',  58]
+let s:blc.deepdarkgreen           = ['005f00',  22]
+let s:blc.deepdarkcyan            = ['005f5f',  23]
+let s:blc.deepdarkblue            = ['00005f',  11]
+let s:blc.deepdarkmagenta         = ['5f005f',  53]
 " }}}
 
 " }}}

@@ -174,26 +174,26 @@ endif
 " Syntax highlighting {{{
 if &background ==# 'dark'
   call s:HL('Comment', 'darkgreen')
-  call s:HL('Constant','dalespale')
-  call s:HL('Character','dalespale')
-
-  call s:HL('Identifier','coffee')
-
-  call s:HL('Statement','taffy') 
-
-  call s:HL('PreProc','lime')
-
-  call s:HL('Type','brightred')
-
-  call s:HL('Special','lime')
-
-  call s:HL('Underlined','lime')
-
-  call s:HL('Ignore','lime')
-
-  call s:HL('Error','lime')
-
-  call s:HL('Todo','coal','dalespale','bold')
+"j  call s:HL('Constant','dalespale')
+"j  call s:HL('Character','dalespale')
+"j
+"j  call s:HL('Identifier','coffee')
+"j
+"j  call s:HL('Statement','taffy') 
+"j
+"j  call s:HL('PreProc','lime')
+"j
+"j  call s:HL('Type','brightred')
+"j
+"j  call s:HL('Special','lime')
+"j
+"j  call s:HL('Underlined','lime')
+"j
+"j  call s:HL('Ignore','lime')
+"j
+"j  call s:HL('Error','lime')
+"j
+"j  call s:HL('Todo','coal','dalespale','bold')
 else 
 
 endif

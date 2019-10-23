@@ -186,7 +186,7 @@ if &background ==# 'dark'
   call s:HL('Constant','lightorange')
 "j  call s:HL('Character','dalespale')
 "j
-  call s:HL('Identifier','orange')
+  call s:HL('Identifier','vividorange')
 
   call s:HL('Statement','lightred') 
 

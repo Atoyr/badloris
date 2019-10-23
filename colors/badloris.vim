@@ -183,10 +183,10 @@ endif
 " Syntax highlighting {{{
 if &background ==# 'dark'
   call s:HL('Comment', 'deepdarkgreen')
-"j  call s:HL('Constant','dalespale')
+  call s:HL('Constant','lightorange')
 "j  call s:HL('Character','dalespale')
 "j
-  call s:HL('Identifier','lightorange')
+  call s:HL('Identifier','orange')
 
   call s:HL('Statement','lightred') 
 

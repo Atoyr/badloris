@@ -163,8 +163,8 @@ endfunction
 " General/UI {{{
 if &background ==# 'dark'
   call s:HL('Normal', 'snow', 'coal')     
-  call s:HL('Folded', 'mediumgravel', 'bg', 'none') 
-  call s:HL('VertSplit', 'lightgravel', 'bg', 'none')
+"  call s:HL('Folded', 'mediumgravel', 'bg', 'none') 
+"  call s:HL('VertSplit', 'lightgravel', 'bg', 'none')
 else 
   call s:HL('Normal', 'coal', 'snow')
 

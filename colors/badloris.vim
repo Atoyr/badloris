@@ -15,7 +15,7 @@ let s:blc = {}
 
 
 " The most basic of all our colors is a slightly tweaked version of the Molokai
-" System color.
+" System color.{{{
 let s:blc.systemblack   = ['000000', 0]
 let s:blc.systemred     = ['ff0000', 1]
 let s:blc.systemgreen   = ['00ff00', 2]
@@ -33,16 +33,19 @@ let s:blc.systemlightmagenta = ['dada00', 13]
 let s:blc.systemlightcyan    = ['da00da', 14]
 let s:blc.systemlightyellow  = ['00dada', 11]
 let s:blc.systemodawhite     = ['dadada', 15]
+" }}}
 
-" Pure and simple.
+" Pure and simple.{{{
 let s:blc.snow = ['e4e4e4', 254]
 let s:blc.coal = ['1c1c1c', 234]
+" }}}
 
-" pure color
+" pure color {{{
 let s:blc.purewhite      = ['ffffff', 232]
 let s:blc.pureblack      = ['000000',  16]
+" }}}
 
-" Vivid color
+" Vivid color {{{
 let s:blc.vividred            = ['ff0000', 196]
 let s:blc.vividorange         = ['ff8700', 208]
 let s:blc.vividyellow         = ['ffff00', 226]
@@ -55,8 +58,9 @@ let s:blc.vividblue           = ['0000ff',  21]
 let s:blc.vividpurple         = ['8700ff',  93]
 let s:blc.vividmagenta        = ['ff00ff', 201]
 let s:blc.vividpink           = ['ff0087', 198]
+" }}}
 
-" Light color
+" Light color {{{
 let s:blc.lightred            = ['ff5f5f', 203]
 let s:blc.lightorange         = ['ffaf5f', 215]
 let s:blc.lightyellow         = ['ffff5f', 227]
@@ -69,21 +73,52 @@ let s:blc.lightblue           = ['5f5fff',  63]
 let s:blc.lightpurple         = ['af5fff', 135]
 let s:blc.lightmagenta        = ['ff5fff', 207]
 let s:blc.lightpink           = ['ff5faf', 205]
+" }}}
 
-" strong color
-let s:blc.strongred            = ['d70000', 160]
-let s:blc.strongorange         = ['d78700', 172]
-let s:blc.strongyellow         = ['d7d700', 184]
-let s:blc.strongemerald        = ['87d700', 112]
-let s:blc.stronggreen          = ['00d700',  40]
-let s:blc.strongemeraldgreen   = ['00d787',  42]
-let s:blc.strongcyan           = ['00d7d7',  44]
-let s:blc.strongmarinblue      = ['0087d7',  32]
-let s:blc.strongblue           = ['0000d7',  21]
-let s:blc.strongpurple         = ['8700d7',  92]
-let s:blc.strongmagenta        = ['d700d7', 164]
-let s:blc.strongpink           = ['d70087', 162]
+" strong color {{{
+let s:blc.strongred           = ['d70000', 160]
+let s:blc.strongorange        = ['d78700', 172]
+let s:blc.strongyellow        = ['d7d700', 184]
+let s:blc.strongemerald       = ['87d700', 112]
+let s:blc.stronggreen         = ['00d700',  40]
+let s:blc.strongemeraldgreen  = ['00d787',  42]
+let s:blc.strongcyan          = ['00d7d7',  44]
+let s:blc.strongmarinblue     = ['0087d7',  32]
+let s:blc.strongblue          = ['0000d7',  21]
+let s:blc.strongpurple        = ['8700d7',  92]
+let s:blc.strongmagenta       = ['d700d7', 164]
+let s:blc.strongpink          = ['d70087', 162]
+" }}}
 
+" deep color {{{
+let s:blc.deepred             = ['af0000', 124]
+let s:blc.deeporange          = ['af5f00', 130]
+let s:blc.deepyellow          = ['afaf00', 142]
+let s:blc.deepemerald         = ['5faf00',  70]
+let s:blc.deepgreen           = ['00af00',  34]
+let s:blc.deepemeraldgreen    = ['00af5f',  35]
+let s:blc.deepcyan            = ['00afaf',  37]
+let s:blc.deepmarinblue       = ['005faf',  25]
+let s:blc.deepblue            = ['0000af',  19]
+let s:blc.deeppurple          = ['5f00af',  55]
+let s:blc.deepmagenta         = ['af00af', 127]
+let s:blc.deeppink            = ['af005f', 125]
+" }}}
+
+" dark color {{{
+let s:blc.darkred             = ['870000',  88]
+let s:blc.darkorange          = ['875f00',  94]
+let s:blc.darkyellow          = ['878700', 100]
+let s:blc.darkemerald         = ['5f8700',  64]
+let s:blc.darkgreen           = ['008700',  28]
+let s:blc.darkemeraldgreen    = ['00875f',  29]
+let s:blc.darkcyan            = ['008787',  30]
+let s:blc.darkmarinblue       = ['005f87',  24]
+let s:blc.darkblue            = ['000087',  21]
+let s:blc.darkpurple          = ['5f0087',  54]
+let s:blc.darkmagenta         = ['870087',  90]
+let s:blc.darkpink            = ['87005f',  89]
+" }}}
 
 " }}}
 "
@@ -138,7 +173,7 @@ endif
 
 " Syntax highlighting {{{
 if &background ==# 'dark'
-  call s:HL('Comment', 'mediumgravel')
+  call s:HL('Comment', 'darkgreen')
   call s:HL('Constant','dalespale')
   call s:HL('Character','dalespale')
 

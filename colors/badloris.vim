@@ -186,13 +186,13 @@ if &background ==# 'dark'
 "j  call s:HL('Constant','dalespale')
 "j  call s:HL('Character','dalespale')
 "j
-"j  call s:HL('Identifier','coffee')
-"j
-"j  call s:HL('Statement','taffy') 
-"j
+  call s:HL('Identifier','lightorange ')
+
+  call s:HL('Statement','lightred') 
+
 "j  call s:HL('PreProc','lime')
 "j
-  call s:HL('Type','deepred')
+  call s:HL('Type','lightcyan')
 "j
 "j  call s:HL('Special','lime')
 "j

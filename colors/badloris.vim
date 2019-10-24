@@ -91,18 +91,18 @@ let s:blc.strongpink          = ['d70087', 162]
 " }}}
 
 " dull color {{{
-let s:blc.strongred           = ['af0000', 160]
-let s:blc.strongorange        = ['af5f00', 172]
-let s:blc.strongyellow        = ['afaf00', 184]
-let s:blc.strongemerald       = ['5faf00', 112]
-let s:blc.stronggreen         = ['00af00',  40]
-let s:blc.strongemeraldgreen  = ['00af5f',  42]
-let s:blc.strongcyan          = ['00afaf',  44]
-let s:blc.strongmarinblue     = ['005faf',  32]
-let s:blc.strongblue          = ['0000af',  21]
-let s:blc.strongpurple        = ['5f00af',  92]
-let s:blc.strongmagenta       = ['af00af', 164]
-let s:blc.strongpink          = ['af005f', 162]
+let s:blc.dullred             = ['af0000', 124]
+let s:blc.dullorange          = ['af5f00', 130]
+let s:blc.dullyellow          = ['afaf00', 142]
+let s:blc.dullemerald         = ['5faf00',  70]
+let s:blc.dullgreen           = ['00af00',  34]
+let s:blc.dullemeraldgreen    = ['00af5f',  35]
+let s:blc.dullcyan            = ['00afaf',  37]
+let s:blc.dullmarinblue       = ['005faf',  25]
+let s:blc.dullblue            = ['0000af',  19]
+let s:blc.dullpurple          = ['5f00af',  55]
+let s:blc.dullmagenta         = ['af00af', 127]
+let s:blc.dullpink            = ['af005f', 125]
 " }}}
 
 " deep color {{{

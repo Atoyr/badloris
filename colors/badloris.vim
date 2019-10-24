@@ -90,6 +90,21 @@ let s:blc.strongmagenta       = ['d700d7', 164]
 let s:blc.strongpink          = ['d70087', 162]
 " }}}
 
+" dull color {{{
+let s:blc.strongred           = ['af0000', 160]
+let s:blc.strongorange        = ['af5f00', 172]
+let s:blc.strongyellow        = ['afaf00', 184]
+let s:blc.strongemerald       = ['5faf00', 112]
+let s:blc.stronggreen         = ['00af00',  40]
+let s:blc.strongemeraldgreen  = ['00af5f',  42]
+let s:blc.strongcyan          = ['00afaf',  44]
+let s:blc.strongmarinblue     = ['005faf',  32]
+let s:blc.strongblue          = ['0000af',  21]
+let s:blc.strongpurple        = ['5f00af',  92]
+let s:blc.strongmagenta       = ['af00af', 164]
+let s:blc.strongpink          = ['af005f', 162]
+" }}}
+
 " deep color {{{
 let s:blc.deepred             = ['af0000', 124]
 let s:blc.deeporange          = ['af5f00', 130]
@@ -186,7 +201,7 @@ if &background ==# 'dark'
   call s:HL('Constant','lightorange')
 "j  call s:HL('Character','dalespale')
 "j
-  call s:HL('Identifier','orange')
+  call s:HL('Identifier','vividorange')
 
   call s:HL('Statement','lightred') 
 
@@ -208,4 +223,8 @@ else
 endif
 " }}} 
 
-
+if &background ==# 'dark'
+  call s:HL('LineNr','darkorange')
+else 
+  call s:HL('LineNr','darkorange') 
+endif

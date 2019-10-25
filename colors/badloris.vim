@@ -254,7 +254,7 @@ if &background ==# 'dark'
 "j
   call s:HL('Type','lightcyan')
 "j
-"j  call s:HL('Special','lime')
+  call s:HL('Special','deepdarkcyan')
 "j
 "j  call s:HL('Underlined','lime')
 "j
@@ -264,6 +264,8 @@ if &background ==# 'dark'
 "j
 "j  call s:HL('Todo','coal','dalespale','bold')
 else 
+
+  call s:HL('Special','deepdarkcyan')
 
 endif
 " }}} 

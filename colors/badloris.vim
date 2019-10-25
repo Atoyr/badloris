@@ -252,7 +252,7 @@ if &background ==# 'dark'
 
 "j  call s:HL('PreProc','lime')
 "j
-  call s:HL('Type','lightcyan')
+  call s:HL('Type','deepblue')
 "j
   call s:HL('Special','deepdarkcyan')
 "j

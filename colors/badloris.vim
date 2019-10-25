@@ -75,6 +75,36 @@ let s:blc.lightmagenta        = ['ff5fff', 207]
 let s:blc.lightpink           = ['ff5faf', 205]
 " }}}
 
+" pale color {{{
+let s:blc.palered             = ['ff8787', 203]
+let s:blc.paleorange          = ['ffd787', 215]
+let s:blc.paleyellow          = ['ffff87', 227]
+let s:blc.paleemerald         = ['d7ff87', 155]
+let s:blc.palegreen           = ['87ff87',  83]
+let s:blc.paleemeraldgreen    = ['87ffd7',  85]
+let s:blc.palecyan            = ['87ffff',  87]
+let s:blc.palemarinblue       = ['87d7ff',  75]
+let s:blc.paleblue            = ['8787ff',  63]
+let s:blc.palepurple          = ['d787ff', 135]
+let s:blc.palemagenta         = ['ff87ff', 207]
+let s:blc.palepink            = ['ff87d7', 205]
+" }}}
+
+" very pale color {{{
+let s:blc.verypalered             = ['ffafaf', 217]
+let s:blc.verypaleorange          = ['ffd7af', 223]
+let s:blc.verypaleyellow          = ['ffffaf', 229]
+let s:blc.verypaleemerald         = ['d7ffaf', 193]
+let s:blc.verypalegreen           = ['afffaf', 157]
+let s:blc.verypaleemeraldgreen    = ['afffd7', 158]
+let s:blc.verypalecyan            = ['afffff', 159]
+let s:blc.verypalemarinblue       = ['afd7ff', 153]
+let s:blc.verypaleblue            = ['afafff', 147]
+let s:blc.verypalepurple          = ['d7afff', 183]
+let s:blc.verypalemagenta         = ['ffafff', 219]
+let s:blc.verypalepink            = ['ffafd7', 218]
+" }}}
+
 " strong color {{{
 let s:blc.strongred           = ['d70000', 160]
 let s:blc.strongorange        = ['d78700', 172]
@@ -90,19 +120,34 @@ let s:blc.strongmagenta       = ['d700d7', 164]
 let s:blc.strongpink          = ['d70087', 162]
 " }}}
 
+" soft color {{{
+let s:blc.softred             = ['af5f5f', 131]
+let s:blc.softorange          = ['af875f', 137]
+let s:blc.softyellow          = ['afaf5f', 143]
+let s:blc.softemerald         = ['87af5f', 107]
+let s:blc.softgreen           = ['5faf5f',  71]
+let s:blc.softemeraldgreen    = ['5faf87',  72]
+let s:blc.softcyan            = ['5fafaf',  73]
+let s:blc.softmarinblue       = ['5f87af',  67]
+let s:blc.softblue            = ['5f5faf',  61]
+let s:blc.softpurple          = ['875faf',  97]
+let s:blc.softmagenta         = ['af5faf', 133]
+let s:blc.softpink            = ['af5f87', 132]
+" }}}
+
 " dull color {{{
-let s:blc.dullred             = ['af0000', 124]
-let s:blc.dullorange          = ['af5f00', 130]
-let s:blc.dullyellow          = ['afaf00', 142]
-let s:blc.dullemerald         = ['5faf00',  70]
-let s:blc.dullgreen           = ['00af00',  34]
-let s:blc.dullemeraldgreen    = ['00af5f',  35]
-let s:blc.dullcyan            = ['00afaf',  37]
-let s:blc.dullmarinblue       = ['005faf',  25]
-let s:blc.dullblue            = ['0000af',  19]
-let s:blc.dullpurple          = ['5f00af',  55]
-let s:blc.dullmagenta         = ['af00af', 127]
-let s:blc.dullpink            = ['af005f', 125]
+let s:blc.dullred             = ['d78787', 174]
+let s:blc.dullorange          = ['d7af87', 180]
+let s:blc.dullyellow          = ['d7d787', 186]
+let s:blc.dullemerald         = ['afd787', 150]
+let s:blc.dullgreen           = ['87d787', 114]
+let s:blc.dullemeraldgreen    = ['87d7af', 115]
+let s:blc.dullcyan            = ['87d7d7', 116]
+let s:blc.dullmarinblue       = ['87afd7', 110]
+let s:blc.dullblue            = ['8787d7', 104]
+let s:blc.dullpurple          = ['af87d7', 140]
+let s:blc.dullmagenta         = ['d787d7', 176]
+let s:blc.dullpink            = ['d787af', 175]
 " }}}
 
 " deep color {{{
@@ -119,7 +164,7 @@ let s:blc.deeppurple          = ['5f00af',  55]
 let s:blc.deepmagenta         = ['af00af', 127]
 let s:blc.deeppink            = ['af005f', 125]
 " }}}
-"
+
 " dark color {{{
 let s:blc.darkred             = ['870000',  88]
 let s:blc.darkorange          = ['875f00',  94]

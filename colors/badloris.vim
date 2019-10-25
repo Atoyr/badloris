@@ -185,7 +185,7 @@ let s:blc.deepdarkred             = ['5f0000',  52]
 let s:blc.deepdarkyellow          = ['5f5f00',  58]
 let s:blc.deepdarkgreen           = ['005f00',  22]
 let s:blc.deepdarkcyan            = ['005f5f',  23]
-let s:blc.deepdarkblue            = ['00005f',  11]
+let s:blc.deepdarkblue            = ['00005f',  17]
 let s:blc.deepdarkmagenta         = ['5f005f',  53]
 " }}}
 

@@ -286,8 +286,8 @@ endif
 
 if &background ==# 'dark'
   call s:HL('LineNr','darkorange')
-  call s:HL('SpecialKey','blackgravel')
+  call s:HL('SpecialKey','darkgravel')
 else 
   call s:HL('LineNr','darkorange') 
-  call s:HL('SpecialKey','blackgravel')
+  call s:HL('SpecialKey','darkgravel')
 endif

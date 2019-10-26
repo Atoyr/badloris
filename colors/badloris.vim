@@ -47,15 +47,15 @@ let s:blc.pureblack      = ['000000',  16]
 
 " no color
 " All of the Gravel colors are based on a brown from Clouds Midnight.
-let s:bwc.brightgravel   = ['d9cec3', 252]
-let s:bwc.lightgravel    = ['998f84', 245]
-let s:bwc.gravel         = ['857f78', 243]
-let s:bwc.mediumgravel   = ['666462', 241]
-let s:bwc.deepgravel     = ['45413b', 238]
-let s:bwc.deepergravel   = ['35322d', 236]
-let s:bwc.darkgravel     = ['242321', 235]
-let s:bwc.blackgravel    = ['1c1b1a', 233]
-let s:bwc.blackestgravel = ['141413', 232]
+let s:blc.brightgravel   = ['d9cec3', 252]
+let s:blc.lightgravel    = ['998f84', 245]
+let s:blc.gravel         = ['857f78', 243]
+let s:blc.mediumgravel   = ['666462', 241]
+let s:blc.deepgravel     = ['45413b', 238]
+let s:blc.deepergravel   = ['35322d', 236]
+let s:blc.darkgravel     = ['242321', 235]
+let s:blc.blackgravel    = ['1c1b1a', 233]
+let s:blc.blackestgravel = ['141413', 232]
 
 " Vivid color {{{
 let s:blc.vividred            = ['ff0000', 196]

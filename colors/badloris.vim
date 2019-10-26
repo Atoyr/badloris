@@ -294,3 +294,11 @@ else
   call s:HL('LineNr','darkorange') 
   call s:HL('SpecialKey','darkgravel')
 endif
+
+" cursor line {{{
+if &background ==# 'dark'
+  call s:HL('CursorLine','','','underline')
+else 
+  call s:HL('CursorLine','','','underline')
+endif
+" }}}

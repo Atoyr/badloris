@@ -255,7 +255,9 @@ endif
 " Syntax highlighting {{{
 if &background ==# 'dark'
   call s:HL('Comment', 'deepdarkgreen')
-  call s:HL('Constant','lightorange')
+  call s:HL('Constant','lightorange','','bold')
+  call s:HL('Character','lightorange','','bold')
+  call s:HL('Boolean','lightorange','','bold')
 "j  call s:HL('Character','dalespale')
 "j
   call s:HL('Identifier','vividorange')

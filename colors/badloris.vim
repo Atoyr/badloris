@@ -255,12 +255,15 @@ endif
 " Syntax highlighting {{{
 if &background ==# 'dark'
   call s:HL('Comment', 'deepdarkgreen')
+  call s:HL('String','paleorange','','none')
   call s:HL('Constant','lightorange','','bold')
   call s:HL('Character','lightorange','','bold')
-  call s:HL('Boolean','lightmarinblue','','bold')
-"j  call s:HL('Character','dalespale')
-"j
-  call s:HL('Identifier','vividorange')
+  call s:HL('Boolean','softorange','','none')
+  call s:HL('Number','softorange','','none')
+  call s:HL('Float','softorange','','none')
+
+  call s:HL('Identifier','vividorange','','bold')
+  call s:HL('Function','vividorange','','none')
 
   call s:HL('Statement','lightred') 
 

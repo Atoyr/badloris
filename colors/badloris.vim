@@ -255,39 +255,58 @@ endif
 " Syntax highlighting {{{
 if &background ==# 'dark'
   call s:HL('Comment', 'deepdarkgreen')
-  call s:HL('String','paleorange','','none')
   call s:HL('Constant','lightorange','','bold')
+  call s:HL('String','paleorange','','none')
   call s:HL('Character','lightorange','','bold')
-  call s:HL('Boolean','softorange','','none')
   call s:HL('Number','softorange','','none')
+  call s:HL('Boolean','softorange','','none')
   call s:HL('Float','softorange','','none')
 
   call s:HL('Identifier','vividorange','','bold')
   call s:HL('Function','vividorange','','none')
 
   call s:HL('Statement','lightred') 
+  call s:HL('Conditional','lightred') 
+  call s:HL('Repeat','lightred') 
+  call s:HL('Label','lightred','','bold') 
+  call s:HL('Operator','lightred')
+  call s:HL('Keyword','lightred')
+  call s:HL('Exception','lightred')
 
-"j  call s:HL('PreProc','lime')
-"j
+  call s:HL('PreProc','dullgreen')
+  call s:HL('Include','dullgreen','','bold')
+  call s:HL('Define','dullgreen','','bold')
+  call s:HL('Macro','dullgreen','','bold')
+  call s:HL('PreCondit','dullgreen')
+"
   call s:HL('Type','dullblue')
-"j
+  call s:HL('StorageClass','softblue','','bold')
+  call s:HL('Structure','dullblue','','bold')
+  call s:HL('Typedef','dullgreen','','bold')
+
   call s:HL('Special','verypalecyan')
-"j
-"j  call s:HL('Underlined','lime')
-"j
-"j  call s:HL('Ignore','lime')
-"j
-"j  call s:HL('Error','lime')
-"j
-"j  call s:HL('Todo','coal','dalespale','bold')
+  call s:HL('SpecialChar','')
+  call s:HL('Tag','')
+  call s:HL('Delimiter','')
+  call s:HL('SpecialComment','')
+  call s:HL('Debug','')
+
+  call s:HL('Underlined','dullgreen')
+  
+  call s:HL('Ignore','lightgravel')
+
+  call s:HL('Error','brightfravel','vividred','none')
+
+  call s:HL('Todo','coal','dalespale','bold')
 else 
   call s:HL('Comment', 'deepdarkgreen')
-  call s:HL('String','paleorange','','none')
   call s:HL('Constant','lightorange','','bold')
+  call s:HL('String','paleorange','','none')
   call s:HL('Character','lightorange','','bold')
-  call s:HL('Boolean','softorange','','none')
   call s:HL('Number','softorange','','none')
+  call s:HL('Boolean','softorange','','none')
   call s:HL('Float','softorange','','none')
+
 
   call s:HL('Special','verypalecyan')
 

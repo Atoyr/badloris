@@ -316,11 +316,11 @@ endif
 
 " Syntax highlig htingghlight-group  {{{
 if &background ==# 'dark'
-  call s:HL('Cursor','','dullorange')
+  call s:HL('Cursor','','dullorange','reverse')
   call s:HL('CursorLine','','deepergravel','none')
   call s:HL('CursorColumn','','deepergravel','none')
 
-  call s:HL('Search','brightgravel', 'lighthyellow')
+  call s:HL('Search','brightgravel', 'lightyellow')
   call s:HL('IncSearch','brightgravel', 'lightblue')
 
   call s:HL('LineNr','darkorange')

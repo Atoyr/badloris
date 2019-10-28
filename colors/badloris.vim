@@ -253,7 +253,7 @@ else
 endif
 " }}} 
 
-" Syntax highlighting {{{
+" Syntax highlighting group-name {{{
 if &background ==# 'dark'
   call s:HL('Comment', 'deepdarkgreen')
   call s:HL('Constant','lightorange','','bold')
@@ -314,31 +314,31 @@ else
 endif
 " }}} 
 
-" {{{
+" Syntax highlig htingghlight-group  {{{
 if &background ==# 'dark'
-  call s:HL('Search','brightgravel', 'lighthyellow')
-  call s:HL('IncSearch','brightgravel', 'lightblue')
-else 
-  call s:HL('Search','brightgravel', 'softmarinblue')
-  call s:HL('IncSearch','brightgravel', 'lightblue')
-endif
-" }}}
-
-if &background ==# 'dark'
-  call s:HL('LineNr','darkorange')
-  call s:HL('CursorLineNr','strongorange')
-  call s:HL('SpecialKey','deepgravel')
-else 
-  call s:HL('LineNr','darkorange') 
-  call s:HL('SpecialKey','deepgravel')
-endif
-
-" cursor line {{{
-if &background ==# 'dark'
+  call s:HL('Cursor','','dullorange')
   call s:HL('CursorLine','','deepergravel','none')
   call s:HL('CursorColumn','','deepergravel','none')
+
+  call s:HL('Search','brightgravel', 'lighthyellow')
+  call s:HL('IncSearch','brightgravel', 'lightblue')
+
+  call s:HL('LineNr','darkorange')
+  call s:HL('CursorLineNr','strongorange')
+
+  call s:HL('SpecialKey','deepgravel')
+
+  call s:HL('Visual','','lightblue')
 else 
   call s:HL('CursorLine','','lightgravel','none')
   call s:HL('CursorColumn','','lightgravel','none')
+
+  call s:HL('Search','brightgravel', 'softmarinblue')
+  call s:HL('IncSearch','brightgravel', 'lightblue')
+
+  call s:HL('LineNr','darkorange') 
+
+  call s:HL('SpecialKey','deepgravel')
 endif
 " }}}
+

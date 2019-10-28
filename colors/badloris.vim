@@ -295,9 +295,9 @@ if &background ==# 'dark'
   
   call s:HL('Ignore','lightgravel')
 
-  call s:HL('Error','brightfravel','vividred','none')
+  call s:HL('Error','brightgravel','vividred')
 
-  call s:HL('Todo','coal','dalespale','bold')
+  call s:HL('Todo','coal','dullcyan','bold')
 else 
   call s:HL('Comment', 'deepdarkgreen')
   call s:HL('Constant','lightorange','','bold')

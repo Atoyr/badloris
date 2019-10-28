@@ -316,9 +316,11 @@ endif
 
 " {{{
 if &background ==# 'dark'
-  call s:HL('Search','brightgravel', 'softmarinblue')
+  call s:HL('Search','brightgravel', 'lighthyellow')
+  call s:HL('IncSearch','brightgravel', 'lightblue')
 else 
   call s:HL('Search','brightgravel', 'softmarinblue')
+  call s:HL('IncSearch','brightgravel', 'lightblue')
 endif
 " }}}
 

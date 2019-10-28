@@ -305,10 +305,10 @@ endif
 
 if &background ==# 'dark'
   call s:HL('LineNr','darkorange')
-  call s:HL('SpecialKey','deepravel')
+  call s:HL('SpecialKey','deepgravel')
 else 
   call s:HL('LineNr','darkorange') 
-  call s:HL('SpecialKey','deepravel')
+  call s:HL('SpecialKey','deepgravel')
 endif
 
 " cursor line {{{

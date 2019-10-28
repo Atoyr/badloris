@@ -305,7 +305,9 @@ endif
 " cursor line {{{
 if &background ==# 'dark'
   call s:HL('CursorLine','','deepergravel','none')
+  call s:HL('CursorColumn','','deepergravel','none')
 else 
-  call s:HL('CursorLine','','deepergravel','none')
+  call s:HL('CursorLine','','lightgravel','none')
+  call s:HL('CursorColumn','','lightgravel','none')
 endif
 " }}}

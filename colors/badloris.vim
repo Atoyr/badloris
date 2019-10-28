@@ -89,18 +89,18 @@ let s:blc.lightpink           = ['ff5faf', 205]
 " }}}
 
 " pale color {{{
-let s:blc.palered             = ['ff8787', 203]
-let s:blc.paleorange          = ['ffd787', 215]
-let s:blc.paleyellow          = ['ffff87', 227]
-let s:blc.paleemerald         = ['d7ff87', 155]
-let s:blc.palegreen           = ['87ff87',  83]
-let s:blc.paleemeraldgreen    = ['87ffd7',  85]
-let s:blc.palecyan            = ['87ffff',  87]
-let s:blc.palemarinblue       = ['87d7ff',  75]
-let s:blc.paleblue            = ['8787ff',  63]
-let s:blc.palepurple          = ['d787ff', 135]
-let s:blc.palemagenta         = ['ff87ff', 207]
-let s:blc.palepink            = ['ff87d7', 205]
+let s:blc.palered             = ['ff8787', 210]
+let s:blc.paleorange          = ['ffd787', 222]
+let s:blc.paleyellow          = ['ffff87', 228]
+let s:blc.paleemerald         = ['d7ff87', 192]
+let s:blc.palegreen           = ['87ff87', 120]
+let s:blc.paleemeraldgreen    = ['87ffd7', 122]
+let s:blc.palecyan            = ['87ffff', 123]
+let s:blc.palemarinblue       = ['87d7ff', 117]
+let s:blc.paleblue            = ['8787ff', 105]
+let s:blc.palepurple          = ['d787ff', 177]
+let s:blc.palemagenta         = ['ff87ff', 213]
+let s:blc.palepink            = ['ff87d7', 212]
 " }}}
 
 " very pale color {{{

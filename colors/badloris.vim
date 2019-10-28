@@ -294,6 +294,15 @@ else
 endif
 " }}} 
 
+" {{{
+if &background ==# 'dark'
+  call s:HL('Search','brightgravel', 'strongorange','reverse')
+else 
+  call s:HL('LineNr','darkorange') 
+  call s:HL('SpecialKey','deepravel')
+endif
+" }}}
+
 if &background ==# 'dark'
   call s:HL('LineNr','darkorange')
   call s:HL('SpecialKey','deepravel')

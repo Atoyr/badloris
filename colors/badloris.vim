@@ -285,11 +285,11 @@ if &background ==# 'dark'
   call s:HL('Typedef','dullgreen','','bold')
 
   call s:HL('Special','verypalecyan')
-  call s:HL('SpecialChar','')
-  call s:HL('Tag','')
-  call s:HL('Delimiter','')
-  call s:HL('SpecialComment','')
-  call s:HL('Debug','')
+  call s:HL('SpecialChar','fg')
+  call s:HL('Tag','fg')
+  call s:HL('Delimiter','fg')
+  call s:HL('SpecialComment','fg')
+  call s:HL('Debug','fg')
 
   call s:HL('Underlined','dullgreen')
   

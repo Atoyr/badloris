@@ -298,13 +298,13 @@ endif
 if &background ==# 'dark'
   call s:HL('Search','brightgravel', 'softmarinblue')
 else 
-  call s:HL('LineNr','darkorange') 
-  call s:HL('SpecialKey','deepravel')
+  call s:HL('Search','brightgravel', 'softmarinblue')
 endif
 " }}}
 
 if &background ==# 'dark'
   call s:HL('LineNr','darkorange')
+  call s:HL('CursorLineNr','strongorange')
   call s:HL('SpecialKey','deepgravel')
 else 
   call s:HL('LineNr','darkorange') 

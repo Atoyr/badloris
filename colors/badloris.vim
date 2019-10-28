@@ -281,6 +281,13 @@ if &background ==# 'dark'
 "j
 "j  call s:HL('Todo','coal','dalespale','bold')
 else 
+  call s:HL('Comment', 'deepdarkgreen')
+  call s:HL('String','paleorange','','none')
+  call s:HL('Constant','lightorange','','bold')
+  call s:HL('Character','lightorange','','bold')
+  call s:HL('Boolean','softorange','','none')
+  call s:HL('Number','softorange','','none')
+  call s:HL('Float','softorange','','none')
 
   call s:HL('Special','verypalecyan')
 

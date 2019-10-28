@@ -13,8 +13,6 @@ let g:colors_name = "badloris"
 " Palette {{{
 let s:blc = {}
 
-hi clear
-
 " The most basic of all our colors is a slightly tweaked version of the Molokai
 " System color.{{{
 let s:blc.systemblack   = ['000000', 0]

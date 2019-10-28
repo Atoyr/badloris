@@ -296,7 +296,7 @@ endif
 
 " {{{
 if &background ==# 'dark'
-  call s:HL('Search','brightgravel', 'strongorange')
+  call s:HL('Search','brightgravel', 'softmarinblue')
 else 
   call s:HL('LineNr','darkorange') 
   call s:HL('SpecialKey','deepravel')

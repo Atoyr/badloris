@@ -328,7 +328,7 @@ if &background ==# 'dark'
 
   call s:HL('SpecialKey','deepgravel')
 
-  call s:HL('Visual','','lightblue')
+  call s:HL('Visual','','softblue')
 else 
   call s:HL('CursorLine','','lightgravel','none')
   call s:HL('CursorColumn','','lightgravel','none')

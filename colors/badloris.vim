@@ -325,6 +325,7 @@ if &background ==# 'dark'
 
   call s:HL('LineNr','darkorange')
   call s:HL('CursorLineNr','strongorange')
+  call s:HL('SignColumn','','deepgravel')
 
   call s:HL('SpecialKey','deepgravel')
 

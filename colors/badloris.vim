@@ -317,6 +317,8 @@ endif
 " Syntax highlig htingghlight-group  {{{
 if &background ==# 'dark'
   call s:HL('Cursor','','dullorange','reverse')
+  call s:HL('iCursor','','dullorange','reverse')
+  call s:HL('vCursor','','dullorange','none')
   call s:HL('CursorLine','','deepergravel','none')
   call s:HL('CursorColumn','','deepergravel','none')
 

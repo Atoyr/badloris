@@ -322,8 +322,8 @@ if &background ==# 'dark'
   call s:HL('CursorLine','','deepergravel','none')
   call s:HL('CursorColumn','','deepergravel','none')
 
-  call s:HL('Search','brightgravel', 'darkblue')
-  call s:HL('IncSearch','brightgravel', 'darkblue')
+  call s:HL('Search','brightgravel', 'softblue')
+  call s:HL('IncSearch','brightgravel', 'softblue')
 
   call s:HL('LineNr','darkorange')
   call s:HL('CursorLineNr','strongorange')

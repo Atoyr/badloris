@@ -322,13 +322,15 @@ if &background ==# 'dark'
   call s:HL('CursorLine','','deepergravel','none')
   call s:HL('CursorColumn','','deepergravel','none')
 
-  call s:HL('Search','brightgravel', 'lightblue')
-  call s:HL('IncSearch','brightgravel', 'lightblue')
+  call s:HL('Search','brightgravel', 'darkblue')
+  call s:HL('IncSearch','brightgravel', 'darkblue')
 
   call s:HL('LineNr','darkorange')
   call s:HL('CursorLineNr','strongorange')
   call s:HL('SignColumn','','blackgravel')
   call s:HL('VertSplit','blackgravel','vividorange','reverse')
+
+  call s:HL('Pmenu','deepdarkgreen')
 
   call s:HL('SpecialKey','deepgravel')
 

@@ -73,6 +73,10 @@ let s:blc.vividmagenta            = ['ff00ff', 201]
 let s:blc.vividpink               = ['ff0087', 198]
 " }}}
 
+" color {{{
+let s:blc.gold                    = ['ffd700', 220]
+" }}}
+
 " Light color {{{
 let s:blc.lightred                = ['ff5f5f', 203]
 let s:blc.lightorange             = ['ffaf5f', 215]
@@ -336,6 +340,8 @@ if &background ==# 'dark'
   call s:HL('SpecialKey','deepgravel')
 
   call s:HL('Visual','','softblue')
+
+  call s:HL('Directory','gold')
 else 
   call s:HL('CursorLine','','lightgravel','none')
   call s:HL('CursorColumn','','lightgravel','none')

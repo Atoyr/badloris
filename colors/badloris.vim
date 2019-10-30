@@ -342,6 +342,8 @@ if &background ==# 'dark'
   call s:HL('Visual','','softblue')
 
   call s:HL('Directory','gold')
+
+  call s:HL('DiffAdd','dullgreen')
 else 
   call s:HL('CursorLine','','lightgravel','none')
   call s:HL('CursorColumn','','lightgravel','none')

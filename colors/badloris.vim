@@ -343,9 +343,9 @@ if &background ==# 'dark'
 
   call s:HL('Directory','gold')
 
-  call s:HL('DiffAdd','','darkemeraldgreen')
+  call s:HL('DiffAdd','','deepdarkblue')
   call s:HL('DiffChange','','deepdarkmagenta')
-  call s:HL('DiffDelete','deepdarkred','deepdarkred')
+  call s:HL('DiffDelete','deepgravel','coal')
   call s:HL('DiffText','','deepmagenta')
 else 
   call s:HL('CursorLine','','lightgravel','none')

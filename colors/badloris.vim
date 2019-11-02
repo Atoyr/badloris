@@ -334,7 +334,7 @@ if &background ==# 'dark'
   call s:HL('SignColumn','','blackgravel')
   call s:HL('VertSplit','blackgravel','vividorange','reverse')
 
-  call s:HL('Pmenu','brightgravel','blackgravel')
+  call s:HL('Pmenu','brightgravel','blackestgravel')
   call s:HL('PmenuSel','brightgravel','darkgravel')
 
   call s:HL('SpecialKey','deepgravel')

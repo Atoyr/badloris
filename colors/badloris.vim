@@ -270,7 +270,7 @@ if &background ==# 'dark'
   call s:HL('Identifier','vividorange','','bold')
   call s:HL('Function','vividorange','','none')
 
-  call s:HL('Statement','lightred') 
+  call s:HL('Statement','deepred') 
   call s:HL('Conditional','lightred') 
   call s:HL('Repeat','lightred') 
   call s:HL('Label','lightred','','bold') 

@@ -360,3 +360,11 @@ else
 endif
 " }}}
 
+" vim  {{{
+if &background ==# 'dark'
+  call s:HL('vimCommand','lightred')
+
+else
+
+endif
+" }}}

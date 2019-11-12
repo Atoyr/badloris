@@ -368,3 +368,12 @@ else
 
 endif
 " }}}
+"
+" NERDTree {{{
+if &background ==# 'dark'
+  call s:HL('NERDTreeExecFile','lightcyan')
+
+else
+
+endif 
+" }}}

@@ -380,7 +380,7 @@ endif
 "
 " Plug {{{
 if &background ==# 'dark'
-  call s:HL('Plug1','brightgravel')
+  call s:HL('Plug1','brightgravel','','bold')
 
 else
 

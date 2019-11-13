@@ -383,6 +383,7 @@ if &background ==# 'dark'
   call s:HL('Plug1','brightgravel','','bold')
 
 else
+  call s:HL('Plug1','blackgravel','','bold')
 
 endif 
 " }}}

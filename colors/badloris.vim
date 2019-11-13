@@ -371,7 +371,7 @@ endif
 "
 " NERDTree {{{
 if &background ==# 'dark'
-  call s:HL('NERDTreeExecFile','lightcyan')
+  call s:HL('NERDTreeExecFile','brightgravel')
 
 else
 

@@ -377,3 +377,12 @@ else
 
 endif 
 " }}}
+"
+" Plug {{{
+if &background ==# 'dark'
+  call s:HL('Plug1','brightgravel')
+
+else
+
+endif 
+" }}}

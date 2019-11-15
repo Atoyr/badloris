@@ -381,7 +381,9 @@ endif
 " Plug {{{
 if &background ==# 'dark'
   call s:HL('Plug1','brightgravel','','bold')
+  call s:HL('Plug2','lightblue','','bold')
   call s:HL('PlugMessage','deepgreen')
+  call s:HL('PlugBracket','lightblue')
 
 else
   call s:HL('Plug1','blackgravel','','bold')

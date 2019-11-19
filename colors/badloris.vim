@@ -391,3 +391,12 @@ else
 
 endif 
 " }}}
+"
+" markdown {{{
+call s:HL('markdownH1','vividorange','','bold')
+call s:HL('markdownH2','lightorange','','bold')
+call s:HL('markdownH3','softorange','','bold')
+call s:HL('markdownH4','dullorange','','bold')
+call s:HL('markdownH5','deeporange','','bold')
+call s:HL('markdownH6','darkorange','','bold') 
+" }}}

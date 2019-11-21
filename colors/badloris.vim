@@ -10,6 +10,8 @@ endif
 
 set t_Co=256 
 let g:colors_name = "badloris"
+
+set background = dark
 " }}}
 "
 " Palette {{{
@@ -247,143 +249,96 @@ endfunction
 "
 " Actual colorscheme ----------------------------------------------------------
 " General/UI {{{
-if &background ==# 'dark'
-  call s:HL('Normal', 'snow', 'coal')     
+call s:HL('Normal', 'snow', 'coal')     
 "  call s:HL('Folded', 'mediumgravel', 'bg', 'none') 
 "  call s:HL('VertSplit', 'lightgravel', 'bg', 'none')
-else 
-  call s:HL('Normal', 'coal', 'snow')
-
-endif
 " }}} 
 
 " Syntax highlighting group-name {{{
-if &background ==# 'dark'
-  call s:HL('Comment', 'deepdarkgreen')
-  call s:HL('Constant','lightorange','','bold')
-  call s:HL('String','paleorange','','none')
-  call s:HL('Character','lightorange','','bold')
-  call s:HL('Number','softorange','','none')
-  call s:HL('Boolean','softorange','','none')
-  call s:HL('Float','softorange','','none')
+call s:HL('Comment', 'deepdarkgreen')
+call s:HL('Constant','lightorange','','bold')
+call s:HL('String','paleorange','','none')
+call s:HL('Character','lightorange','','bold')
+call s:HL('Number','softorange','','none')
+call s:HL('Boolean','softorange','','none')
+call s:HL('Float','softorange','','none')
 
-  call s:HL('Identifier','vividorange','','bold')
-  call s:HL('Function','vividorange','','none')
+call s:HL('Identifier','vividorange','','bold')
+call s:HL('Function','vividorange','','none')
 
-  call s:HL('Statement','deepred') 
-  call s:HL('Conditional','lightred') 
-  call s:HL('Repeat','lightred') 
-  call s:HL('Label','lightred','','bold') 
-  call s:HL('Operator','lightred')
-  call s:HL('Keyword','lightred')
-  call s:HL('Exception','lightred')
+call s:HL('Statement','deepred') 
+call s:HL('Conditional','lightred') 
+call s:HL('Repeat','lightred') 
+call s:HL('Label','lightred','','bold') 
+call s:HL('Operator','lightred')
+call s:HL('Keyword','lightred')
+call s:HL('Exception','lightred')
 
-  call s:HL('PreProc','dullgreen')
-  call s:HL('Include','dullgreen','','bold')
-  call s:HL('Define','dullgreen','','bold')
-  call s:HL('Macro','dullgreen','','bold')
-  call s:HL('PreCondit','dullgreen')
+call s:HL('PreProc','dullgreen')
+call s:HL('Include','dullgreen','','bold')
+call s:HL('Define','dullgreen','','bold')
+call s:HL('Macro','dullgreen','','bold')
+call s:HL('PreCondit','dullgreen')
 "
-  call s:HL('Type','dullblue')
-  call s:HL('StorageClass','softblue','','bold')
-  call s:HL('Structure','dullblue','','bold')
-  call s:HL('Typedef','dullgreen','','bold')
+call s:HL('Type','dullblue')
+call s:HL('StorageClass','softblue','','bold')
+call s:HL('Structure','dullblue','','bold')
+call s:HL('Typedef','dullgreen','','bold')
 
-  call s:HL('Special','verypalecyan')
-  call s:HL('SpecialChar','verypalered')
-  call s:HL('Tag','verypalered')
-  call s:HL('Delimiter','verypalered')
-  call s:HL('SpecialComment','verypalered')
-  call s:HL('Debug','verypalered')
+call s:HL('Special','verypalecyan')
+call s:HL('SpecialChar','verypalered')
+call s:HL('Tag','verypalered')
+call s:HL('Delimiter','verypalered')
+call s:HL('SpecialComment','verypalered')
+call s:HL('Debug','verypalered')
 
-  call s:HL('Underlined','dullgreen')
-  
-  call s:HL('Ignore','lightgravel')
+call s:HL('Underlined','dullgreen')
 
-  call s:HL('Error','brightgravel','vividred')
+call s:HL('Ignore','lightgravel')
 
-  call s:HL('Todo','coal','dullcyan','bold')
-else 
-  call s:HL('Comment', 'deepdarkgreen')
-  call s:HL('Constant','lightorange','','bold')
-  call s:HL('String','paleorange','','none')
-  call s:HL('Character','lightorange','','bold')
-  call s:HL('Number','softorange','','none')
-  call s:HL('Boolean','softorange','','none')
-  call s:HL('Float','softorange','','none')
+call s:HL('Error','brightgravel','vividred')
 
-
-  call s:HL('Special','verypalecyan')
-
-endif
+call s:HL('Todo','coal','dullcyan','bold')
 " }}} 
 
 " Syntax highlig htingghlight-group  {{{
-if &background ==# 'dark'
-  call s:HL('Cursor','dullorange','','reverse')
-  call s:HL('iCursor','','dullorange','reverse')
-  call s:HL('vCursor','','dullorange','none')
-  call s:HL('CursorLine','','deepergravel','none')
-  call s:HL('CursorColumn','','deepergravel','none')
+call s:HL('Cursor','dullorange','','reverse')
+call s:HL('iCursor','','dullorange','reverse')
+call s:HL('vCursor','','dullorange','none')
+call s:HL('CursorLine','','deepergravel','none')
+call s:HL('CursorColumn','','deepergravel','none')
 
-  call s:HL('Search','', 'softblue')
-  call s:HL('IncSearch','', 'softblue')
+call s:HL('Search','', 'softblue')
+call s:HL('IncSearch','', 'softblue')
 
-  call s:HL('LineNr','darkorange')
-  call s:HL('CursorLineNr','strongorange')
-  call s:HL('SignColumn','','blackgravel')
-  call s:HL('VertSplit','blackgravel','vividorange','reverse')
+call s:HL('LineNr','darkorange')
+call s:HL('CursorLineNr','strongorange')
+call s:HL('SignColumn','','blackgravel')
+call s:HL('VertSplit','blackgravel','vividorange','reverse')
 
-  call s:HL('Pmenu','brightgravel','blackestgravel')
-  call s:HL('PmenuSel','brightgravel','darkgravel')
+call s:HL('Pmenu','brightgravel','blackestgravel')
+call s:HL('PmenuSel','brightgravel','darkgravel')
 
-  call s:HL('SpecialKey','deepgravel')
+call s:HL('SpecialKey','deepgravel')
 
-  call s:HL('Visual','','softblue')
+call s:HL('Visual','','softblue')
 
-  call s:HL('Directory','gold')
+call s:HL('Directory','gold')
 
-  call s:HL('DiffAdd','','deepdarkblue')
-  call s:HL('DiffChange','','deepdarkmagenta')
-  call s:HL('DiffDelete','deepgravel','coal')
-  call s:HL('DiffText','','deepmagenta')
-else 
-  call s:HL('CursorLine','','lightgravel','none')
-  call s:HL('CursorColumn','','lightgravel','none')
-
-  call s:HL('Search','brightgravel', 'softmarinblue')
-  call s:HL('IncSearch','brightgravel', 'lightblue')
-
-  call s:HL('LineNr','darkorange') 
-
-  call s:HL('SpecialKey','deepgravel')
-endif
+call s:HL('DiffAdd','','deepdarkblue')
+call s:HL('DiffChange','','deepdarkmagenta')
+call s:HL('DiffDelete','deepgravel','coal')
+call s:HL('DiffText','','deepmagenta')
 " }}}
 
 " vim  {{{
-if &background ==# 'dark'
-  call s:HL('vimCommand','lightred')
-
-else
-
-endif
+call s:HL('vimCommand','lightred')
 " }}}
 "
 " NERDTree {{{
-if &background ==# 'dark'
-  call s:HL('NERDTreeExecFile','brightgravel')
-
-else
-
-endif 
+call s:HL('NERDTreeExecFile','brightgravel')
 " }}}
 "
 " Plug {{{
-if &background ==# 'dark'
-  call s:HL('Plug1','brightgravel','','bold')
-
-else
-  call s:HL('Plug1','blackgravel','','bold')
-
-endif 
+call s:HL('Plug1','brightgravel','','bold')
 " }}}

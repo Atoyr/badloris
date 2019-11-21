@@ -341,4 +341,16 @@ call s:HL('NERDTreeExecFile','brightgravel')
 "
 " Plug {{{
 call s:HL('Plug1','brightgravel','','bold')
+call s:HL('Plug2','lightblue','','bold')
+call s:HL('PlugMessage','deepgreen')
+call s:HL('PlugBracket','lightblue')
+" }}}
+"
+" markdown {{{
+call s:HL('markdownH1','vividorange','','bold')
+call s:HL('markdownH2','lightorange','','bold')
+call s:HL('markdownH3','softorange','','bold')
+call s:HL('markdownH4','dullorange','','bold')
+call s:HL('markdownH5','deeporange','','bold')
+call s:HL('markdownH6','darkorange','','bold') 
 " }}}

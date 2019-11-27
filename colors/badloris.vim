@@ -6,12 +6,12 @@
 if exists("syntax_on") 
   syntax reset 
 endif
+hi clear
 
 set t_Co=256 
 let g:colors_name = "badloris"
 
 set background=dark
-hi clear
 " }}}
 "
 " Palette {{{

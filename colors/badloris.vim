@@ -2,7 +2,6 @@
 " Supporting code -------------------------------------------------------------
 " Preamble {{{
 
-hi clear
 
 if exists("syntax_on") 
   syntax reset 
@@ -11,7 +10,8 @@ endif
 set t_Co=256 
 let g:colors_name = "badloris"
 
-set background = dark
+set background=dark
+hi clear
 " }}}
 "
 " Palette {{{

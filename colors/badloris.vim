@@ -256,6 +256,7 @@ call s:HL('Normal', 'snow', 'coal')
 
 " Syntax highlighting group-name {{{
 call s:HL('Comment', 'darkgreen')
+
 call s:HL('Constant','lightorange','','bold')
 call s:HL('String','paleorange','','none')
 call s:HL('Character','lightorange','','bold')
@@ -266,7 +267,7 @@ call s:HL('Float','softorange','','none')
 call s:HL('Identifier','vividorange','','bold')
 call s:HL('Function','vividorange','','none')
 
-call s:HL('Statement','deepred') 
+call s:HL('Statement','darkred') 
 call s:HL('Conditional','lightred') 
 call s:HL('Repeat','lightred') 
 call s:HL('Label','dullred','','bold') 

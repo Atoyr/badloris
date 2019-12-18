@@ -255,7 +255,7 @@ call s:HL('Normal', 'snow', 'coal')
 " }}} 
 
 " Syntax highlighting group-name {{{
-call s:HL('Comment', 'deepdarkgreen')
+call s:HL('Comment', 'darkgreen')
 call s:HL('Constant','lightorange','','bold')
 call s:HL('String','paleorange','','none')
 call s:HL('Character','lightorange','','bold')

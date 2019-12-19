@@ -267,7 +267,7 @@ call s:HL('Float','softorange','','none')
 call s:HL('Identifier','vividorange','','bold')
 call s:HL('Function','vividorange','','none')
 
-call s:HL('Statement','darkred') 
+call s:HL('Statement','dullred') 
 call s:HL('Conditional','lightred') 
 call s:HL('Repeat','lightred') 
 call s:HL('Label','dullred','','bold') 

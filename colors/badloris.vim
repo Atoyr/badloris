@@ -328,11 +328,11 @@ call s:HL('Directory','gold')
 
 call s:HL('DiffAdd','','deepdarkblue')
 call s:HL('DiffChange','','deepdarkmagenta')
-call s:HL('DiffDelete','deepgravel','darkgravel')
+call s:HL('DiffDelete','blackgravel','darkgravel')
 call s:HL('DiffText','','deepmagenta')
 
-call s:HL('Folded','deepgravel','blackgravel')
-call s:HL('FoldColumn','deepgravel','blackgravel')
+call s:HL('Folded','dullmagenta','blackgravel')
+call s:HL('FoldColumn','dullmagenta','blackgravel')
 " }}}
 
 " vim  {{{

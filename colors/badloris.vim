@@ -282,7 +282,7 @@ call s:HL('Macro','dullgreen','','bold')
 call s:HL('PreCondit','dullgreen')
 "
 call s:HL('Type','dullblue')
-call s:HL('StorageClass','softblue','','bold')
+call s:HL('StorageClass','dullblue','','bold')
 call s:HL('Structure','dullblue','','bold')
 call s:HL('Typedef','dullgreen','','bold')
 

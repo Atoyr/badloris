@@ -357,4 +357,11 @@ call s:HL('markdownH3','softorange','','bold')
 call s:HL('markdownH4','dullorange','','bold')
 call s:HL('markdownH5','deeporange','','bold')
 call s:HL('markdownH6','darkorange','','bold') 
+"[ }}}
+
+" matchup {{{
+" call s:HL('MatchParenCur',')
+call s:HL('MatchWord','','softblue','reverse')
+" call s:HL('MatchBackground',)
+"
 " }}}

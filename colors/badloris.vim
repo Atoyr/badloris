@@ -360,8 +360,8 @@ call s:HL('markdownH6','darkorange','','bold')
 "[ }}}
 
 " matchup {{{
-" call s:HL('MatchParenCur',')
-call s:HL('MatchWord','','softblue','reverse')
+call s:HL('MatchParenCur','','softblue')
+call s:HL('MatchWord','','coal','reverse')
 " call s:HL('MatchBackground',)
 "
 " }}}
